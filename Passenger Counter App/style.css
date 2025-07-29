@@ -1,0 +1,40 @@
+body {
+  background: url(img/bcg-img.jpg);
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(201, 201, 201);
+  text-align: center;
+  border-radius: 10px;
+}
+
+#count-element {
+  font-size: 50px;
+}
+
+.btn,
+#save-btn {
+  background-color: rgb(128, 70, 70);
+  color: rgb(201, 201, 201);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+.btn:hover,
+#save-btn:hover {
+  background-color: rgb(201, 201, 201);
+  color: rgb(128, 70, 70);
+  transform: scale(1.03);
+}
